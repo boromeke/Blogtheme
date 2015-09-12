@@ -8,6 +8,7 @@
       <header class="post-title">
         <h2><?php the_title(); ?></h2>
         <?php if ( 'post' == get_post_type() ) : ?>
+        <?php endif; ?>
          <small>
         <?php boromeke_posted_on(); ?>
         </small>
