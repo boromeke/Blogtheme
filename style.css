@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/*
+Theme Name: BoroMeke
+Theme URI: http://www.boromeke.com
+Author: BoroMeke
+Author URI: http://www.boromeke.com
+Description: 极简至性感的菠萝 ～ 来个完全自己的主题；虽然这最终不是设计稿一个毛样，明显是为了兼容性和自适应各类屏幕做了妥协。
+Version: 1.0
+Tags: minimalism, white, sexy
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, like WordPress, is licensed under the GPL.
+*/
+object,iframe,blockquote,pre,img,audio,video{max-width: 100%;height: auto;}
+a:hover,
+a:focus {
+  outline: none;
+}
+.logo {
+  margin-bottom: auto;
+}
+.webfont {
+  color: #A8A8A8;
+}
+.sidebar {
+  margin: 138px 15px 0;
+  padding: 35px 0px;
+  border: 1px solid #D0CCCC;
+  overflow: hidden;
+}
+.sidebar a {
+  color: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.widget h2 {
+  padding-left: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.widget h2:after {
+  content: "";
+  width: 5px;
+  height: 18px;
+  background-color: #e50157;
+  position: absolute;
+  margin-left: -152px;
+  margin-top: 2px;
+}
+.widget ul {
+  text-align: left;
+  padding-left: 0;
+  list-style: none;
+}
+.widget ul li {
+  padding-left: 30%;
+}
+.widget ul li a {
+  text-transform: uppercase;
+  color: inherit;
+}
+.widget ul li a:hover {
+  color: #007888;
+  font-weight: bold;
+}
+.head {
+  float: left;
+}
+.rss {
+  margin-top: -34px;
+  padding-left: 1.500rem;
+  font-size: 0.940rem;
+}
+.navbar-header {
+  margin-right: -10px;
+}
+.navbar-nav li {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.header-search {
+  padding-right: 64px;
+}
+.search-bar {
+  position: relative;
+  margin-top: 38px;
+  width: 42px;
+  height: 42px;
+  float: right;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #9c9c9d;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}
+.input {
+  position: absolute;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  width: 90%;
+  height: 40px;
+  opacity: 0;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.search-ico,
+.search-btn {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  color: #a8a8a8;
+  border: none;
+  background-color: transparent;
+}
+.search-open {
+  width: 252px;
+}
+.search-open input {
+  visibility: visible;
+  opacity: 1;
+}
+.main {
+  padding-top: 26px;
+}
+.main .post {
+  margin-bottom: 35px;
+}
+.main .post .post-title {
+  padding-bottom: 40px;
+}
+.main .post .post-title a {
+  color: #333;
+}
+.main .post .post-title a:hover {
+  color: #007888;
+}
+.main .post-footer {
+  padding-top: 0.938em;
+  overflow: hidden;
+}
+.main .link {
+  text-transform: uppercase;
+}
+.main .link a {
+  color: inherit;
+}
+.main .link a:hover {
+  color: #007888;
+  font-weight: bold;
+}
+.copyright {
+  padding-top: 60px;
+}
+.copyright p {
+  text-align: center;
+}
+.do {
+  padding-top: 50px;
+  text-align: center;
+}
+@media (max-width: 320px) {
+  .rss {
+    font-size: 0.760rem;
+    margin-top: -30px;
+    padding-left: 1.500rem;
+  }
+  .logo img {
+    width: 54%;
+  }
+  .head {
+    float: left;
+    font-size: 11px;
+  }
+  .navbar-toggle {
+    margin-right: 0.000rem;
+  }
+  .paging {
+    padding-right: initial;
+  }
+  .header-search {
+    padding-right: 15px;
+  }
+  .search-bar {
+    width: 100%;
+    margin-top: 1px;
+  }
+  .search-open {
+    width: 100%;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  .logo img {
+    width: 46%;
+  }
+  .rss {
+    font-size: 0.760rem;
+    margin-top: -30px;
+  }
+  .header-search {
+    padding-right: 15px;
+  }
+  .search-bar {
+    width: 100%;
+    margin-top: 1px;
+  }
+  .search-open {
+    width: 100%;
+  }
+  .head {
+    float: left;
+    font-size: 11px;
+  }
+  .navbar-toggle {
+    margin-right: 0.000rem;
+  }
+  .paging {
+    padding-right: initial;
+  }
+}
+@media (min-width: 640px) and (max-width: 980px) {
+  .sidebar {
+    margin: 138px 0 0;
+  }
+  .sidebar a {
+    font-size: 16px;
+  }
+  .widget h2:after {
+  	margin-left: -102px;
+  	}
+  .widget li {
+    padding-left: 17%;
+  }
+  .header-search {
+    padding-right: 15px;
+  }
+  .paging {
+    padding-right: initial;
+  }
+  .search-open {
+    width: 100%;
+  }
+}
+@media (min-width: 980px) and (max-width: 1280px) {
+  .widget li {
+    padding-left: 25%;
+  }
+  .paging {
+    padding-right: initial;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1920px) {
+  .entry-content {
+    padding-right: 64px;
+  }
+  .paging {
+    padding-right: 64px;
+  }
+  .comment {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  .logo img {
+    width: 32%;
+  }
+  .search-bar {
+    width: 100%;
+    margin-top: 1px;
+  }
+  .search-open {
+    width: 100%;
+  }
+}
+.comment h4 {
+  margin-bottom: 40px;
+}
+/*
+其它页面样式开始
+*/
+.comment time {
+  font-size: 12px;
+  font-style: italic;
+  color: #b2b2b2;
+  padding-left: 15px;
+}
+.comment .reply {
+  background-color: inherit;
+  border-color: #DADEDF;
+  padding: 4px 12px;
+}
+.comment .reply a {
+  color: #333;
+}
+.comment .reply a:hover {
+  color: #007888;
+  border-color: #D2D4D5;
+}
+.tags {
+  font-size: 26px;
+  padding: 20px 0;
+  text-align: center;
+}
+.media-body {
+  padding-bottom: 10px;
+}
+.media-body img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.children {
+  border-bottom: 1px solid #D7E0E0;
+  padding-bottom: 15px;
+}
