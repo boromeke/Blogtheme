@@ -61,7 +61,7 @@
 
     		  'email' =>
     			'<div class="form-group"><label class="control-label" for="email">' . __( 'Email', 'domainreference' ) . '</label> ' .
-    			( $req ? : '' ) .
+    			( $req ? '<span class="required">*</span>' : '' ) .
     			'<input class="form-control" id="email" placeholder="请输入邮箱地址" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ).
     			'" size="30"'. $aria_req . ' /></div>',
 
