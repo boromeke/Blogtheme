@@ -33,7 +33,7 @@ function boromeke_setup() {
 	 * We want them to be the size of the header image that we just defined.
 	 * Larger images will be auto-cropped to fit, smaller ones will be ignored. See header.php.
 	 */
-	set_post_thumbnail_size( $custom_header_support['width'], $custom_header_support['height'], true );
+	// set_post_thumbnail_size( $custom_header_support['width'], $custom_header_support['height'], true );
 }
 endif; // boromeke_setup
 
